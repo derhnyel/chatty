@@ -1,8 +1,10 @@
 import socket 
 import threading
+import logging
 #change all prints to log
 #host_name  = socket.gethostname()
 #host_ip = socket.gethostbyname(host_name)
+#os.system("clear")
 class SocketServer:
     def __init__(self):
         self.socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
